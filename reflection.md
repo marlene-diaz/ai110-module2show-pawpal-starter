@@ -6,10 +6,32 @@
 
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
+
 Initial Design: 
  - add a pet profile (name, age , type)
  - add/Schedule action to respective pet (walking , grooming, bathing, feeding ... etc)
  - Display Daily schedule (perhaps weekly schedule as well)
+
+example design:
+
+class Task {
+  description: str
+  time: str
+  completed: bool
+  mark_complete()
+
+
+Owner --> Pet
+Pet --> Task
+Scheduler --> Owner
+
+Features:
+
+- Add pets
+- Add tasks
+- Sort tasks by time
+- Filter incomplete tasks
+
 
 **b. Design changes**
 

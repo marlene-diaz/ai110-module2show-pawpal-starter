@@ -42,3 +42,6 @@ class Scheduler:
 
     def sort_tasks(self):
         return sorted(self.get_all_tasks(), key=lambda t: t.time)
+    
+    def get_incomplete_tasks(self):
+        return [t for t in self.get_all_tasks() if not t.completed]
