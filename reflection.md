@@ -6,6 +6,10 @@
 
 - Briefly describe your initial UML design.
 - What classes did you include, and what responsibilities did you assign to each?
+Initial Design: 
+ - add a pet profile (name, age , type)
+ - add/Schedule action to respective pet (walking , grooming, bathing, feeding ... etc)
+ - Display Daily schedule (perhaps weekly schedule as well)
 
 **b. Design changes**
 
