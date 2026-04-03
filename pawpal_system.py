@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 
-
+@dataclass
 class Task:
     # this means bathing, feeding, walking
     action: str
